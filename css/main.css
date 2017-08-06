@@ -1,3 +1,43 @@
+* {
+  margin: 0;
+  padding: 0; }
 
+/* NAVBAR */
+.ul-links, nav .navnav ul li .nav-link, nav .navnav ul li .nav-links {
+  color: #646363;
+  font-size: 13px;
+  font-weight: bold;
+  padding-bottom: 50px;
+  position: relative;
+  bottom: 80px; }
+
+nav .row div .img-google {
+  position: relative;
+  left: 460px; }
+nav .row div h2 {
+  color: #646363;
+  position: relative;
+  top: 45px;
+  right: 20px;
+  font-size: 36px; }
+nav .navnav ul li .nav-link {
+  margin-left: 400px; }
+
+[class*="col-"] {
+  padding-bottom: 20px; }
+
+/*IMAGEN PRINCIPAL*/
+.texto, .first-section .row div h3, .first-section .row div h4, .first-section .row div .parrafo, .first-section .row div h5 {
+  color: #54585B;
+  padding-bottom: 15px; }
+
+.first-section .row div h4 {
+  font-size: 14px;
+  font-weight: bold; }
+.first-section .row div .parrafo {
+  font-size: 13px; }
+.first-section .row div h5 {
+  font-size: 13px;
+  font-family: "Kelly Slab", cursive; }
 
 /*# sourceMappingURL=main.css.map */
