@@ -27,7 +27,7 @@ nav .navnav ul li .nav-link {
   padding-bottom: 20px; }
 
 /*IMAGEN PRINCIPAL*/
-.texto, .first-section .row div h3, .first-section .row div h4, .first-section .row div .parrafo, .first-section .row div h5, .second-section .row div h4, .second-section .row div h3, .second-section .row div p, .third-section .row div .row div h4, .third-section .row div .row div p, .third-section .row div .row div h5 {
+.texto, .first-section .row div h3, .first-section .row div h4, .first-section .row div .parrafo, .first-section .row div h5, .second-section .row div h4, .second-section .row div h3, .second-section .row div p, .third-section .row div .row div h4, .third-section .row div .row div p, .third-section .row div .row div h5, footer .row div .row div h4, footer .row div .row div p {
   color: #54585B;
   padding-bottom: 10px; }
 
@@ -39,6 +39,11 @@ nav .navnav ul li .nav-link {
 .first-section .row div h5 {
   font-size: 13px;
   font-family: "Kelly Slab", cursive; }
+.first-section hr {
+  height: 5px;
+  border: 0px;
+  color: #4285f4;
+  background-color: #4285f4; }
 
 /*NEWSFEED*/
 .second-section .row div h5 {
@@ -60,12 +65,47 @@ nav .navnav ul li .nav-link {
     position: relative;
     left: 250px;
     bottom: 10px; }
+.second-section hr {
+  height: 5px;
+  border: 0px;
+  color: #4285f4;
+  background-color: #4285f4; }
 
 /* SECCION IMAGENES */
-.third-section .row div .row div p {
+.third-section .row {
+  padding-top: 20px; }
+  .third-section .row div .row div p {
+    position: relative;
+    bottom: 15px; }
+  .third-section .row div .row div h5 {
+    font-family: "Kelly Slab", cursive; }
+.third-section hr {
+  height: 5px;
+  border: 0px;
+  color: #4285f4;
+  background-color: #4285f4; }
+
+/* FOOTER */
+footer .row {
+  padding-top: 40px; }
+  footer .row div .row div h4 {
+    font-size: 15px;
+    font-weight: bold; }
+  footer .row div .row div p {
+    font-size: 13px; }
+  footer .row div .footer-principal {
+    padding-left: 150px; }
+    footer .row div .footer-principal div p a {
+      color: #54585B; }
+    footer .row div .footer-principal .links-footer {
+      padding-top: 27px; }
+      footer .row div .footer-principal .links-footer p a {
+        color: #54585B; }
+
+.footer .row div img {
   position: relative;
-  bottom: 15px; }
-.third-section .row div .row div h5 {
-  font-family: "Kelly Slab", cursive; }
+  bottom: 20px; }
+.footer .row p a {
+  color: #54585B; }
 
 /*# sourceMappingURL=main.css.map */
