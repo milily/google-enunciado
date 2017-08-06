@@ -49,7 +49,7 @@ nav{
 /*IMAGEN PRINCIPAL*/
 .texto{
 	color: $gris-texto;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 }
 .first-section{
 	.row{
@@ -70,6 +70,48 @@ nav{
 				font-size: 13px;
 				@extend .texto;
 				font-family: $font-fechas;
+			}
+		}
+	}
+}
+/*NEWSFEED*/
+.second-section{
+	.row{
+		div{
+			h4{
+				@extend .texto;
+			}
+			h5{
+				position: relative;
+				top: 10px;
+				font-family: $font-fechas;
+			}
+			h3{
+				@extend .texto;
+				font-weight: bold;
+				font-size: 18px;
+			}
+			p{
+				margin-top: 10px;
+				@extend .texto;
+			}
+		}
+	}
+	.row{
+		.contact{
+			.texto-stayup{
+				background-color: $gris-claro;
+				font-size: 13px;
+				font-weight: bold;
+				width: 550px;
+				padding: 10px 0px 10px 20px;
+				a{
+					.right-block{
+					position: relative;
+					left: 250px;
+					bottom: 10px;
+					}
+				}
 			}
 		}
 	}
