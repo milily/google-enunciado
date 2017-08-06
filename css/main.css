@@ -27,7 +27,7 @@ nav .navnav ul li .nav-link {
   padding-bottom: 20px; }
 
 /*IMAGEN PRINCIPAL*/
-.texto, .first-section .row div h3, .first-section .row div h4, .first-section .row div .parrafo, .first-section .row div h5, .second-section .row div h4, .second-section .row div h3, .second-section .row div p {
+.texto, .first-section .row div h3, .first-section .row div h4, .first-section .row div .parrafo, .first-section .row div h5, .second-section .row div h4, .second-section .row div h3, .second-section .row div p, .third-section .row div .row div h4, .third-section .row div .row div p, .third-section .row div .row div h5 {
   color: #54585B;
   padding-bottom: 10px; }
 
@@ -60,5 +60,12 @@ nav .navnav ul li .nav-link {
     position: relative;
     left: 250px;
     bottom: 10px; }
+
+/* SECCION IMAGENES */
+.third-section .row div .row div p {
+  position: relative;
+  bottom: 15px; }
+.third-section .row div .row div h5 {
+  font-family: "Kelly Slab", cursive; }
 
 /*# sourceMappingURL=main.css.map */

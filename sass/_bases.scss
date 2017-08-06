@@ -116,3 +116,26 @@ nav{
 		}
 	}
 }
+/* SECCION IMAGENES */
+.third-section{
+	.row{
+		div{
+			.row{
+				div{
+					h4{
+						@extend .texto;
+					}
+					p{
+						@extend .texto;
+						position: relative;
+						bottom: 15px;
+					}
+					h5{
+						font-family: $font-fechas;
+						@extend .texto;
+					}
+				}
+			}
+		}
+	}
+}
